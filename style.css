@@ -1,0 +1,366 @@
+* {
+    font-family: 微軟正黑體;
+}
+
+header {
+    border: solid lightblue 10px;
+    border-radius: 10px;
+    background-color: #00B4D8;
+    color: white;
+    text-align: center;
+    margin: 20px 100px;
+    padding: 20px;
+    position: relative;
+    left: 15%;
+    right: 15%;
+}
+
+nav {
+    border: ridge #023E8A 5px;
+    border-radius: 50px;
+    margin: 20px 100px;
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 5px;
+    position: relative;
+    left: 15%;
+    right: 10px;
+}
+
+a {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+marquee {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    transition: 10s;
+}
+
+aside {
+    font-size: 20px;
+    line-height: 40px;
+    background-color: #CAF0F8;
+    border-radius: 5px;
+    width: 18%;
+    float: left;
+    top: 10px;
+    bottom: 10px;
+    position: fixed;
+    padding: 20px;
+    z-index: 20;
+    text-align: center;
+}
+
+.personal {
+    border-radius: 100%;
+}
+
+.keyword {
+    border: double 5px red;
+    border-radius: 20px;
+    background-color: lightpink;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px yellow;
+}
+
+.personality {
+    border: solid lightgreen 10px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+section {
+    position: relative;
+    left: 20%;
+    right: 70%;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    color: white;
+}
+
+.educate {
+    text-align: center;
+    display: flexbox;
+    background-color: #03045E;
+}
+
+.sch {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.schphoto {
+    margin: 25px;
+    border-radius: 100%;
+}
+
+.schword {
+    color: white;
+}
+
+.procedure {
+    font-size: 20px;
+    padding-left: 10%;
+    background-color: #023E8A;
+}
+
+.proskill {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.html-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: white;
+
+}
+
+.html-progress {
+    text-align: center;
+    color: black;
+    width: 80%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: lightgreen;
+    transition: width .2s linear;
+}
+
+.CSS-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: white;
+
+}
+
+.CSS-progress {
+    text-align: center;
+    color: black;
+    width: 60%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: lightgreen;
+    transition: width .2s linear;
+}
+
+.Python-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: white;
+
+}
+
+.Python-progress {
+    text-align: center;
+    color: black;
+    width: 30%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: lightgreen;
+    transition: width .2s linear;
+}
+
+.Java-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: white;
+
+}
+
+.Java-progress {
+    text-align: center;
+    color: black;
+    width: 20%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: lightgreen;
+    transition: width .2s linear;
+}
+
+.C-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: white;
+
+}
+
+.C-progress {
+    text-align: center;
+    color: black;
+    width: 10%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: lightgreen;
+    transition: width .2s linear;
+}
+
+.professional {
+    font-size: 20px;
+    padding-left: 10%;
+    background-color: #0077B6;
+}
+
+.porject {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.Baseball-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: pink;
+
+}
+
+.Baseball-progress {
+    text-align: center;
+    color: white;
+    width: 90%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: purple;
+    transition: width .2s linear;
+}
+
+.Otherball-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: pink;
+
+}
+
+.Otherball-progress {
+    text-align: center;
+    color: white;
+    width: 70%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: purple;
+    transition: width .2s linear;
+}
+
+.Breaking-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: pink;
+
+}
+
+.Breaking-progress {
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: purple;
+    transition: width .2s linear;
+}
+
+.Math-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: pink;
+
+}
+
+.Math-progress {
+    text-align: center;
+    color: white;
+    width: 50%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: purple;
+    transition: width .2s linear;
+}
+
+.Japaness-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: pink;
+
+}
+
+.Japaness-progress {
+    text-align: center;
+    color: white;
+    width: 10%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: purple;
+    transition: width .2s linear;
+}
+
+.Korean-container {
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+    background: pink;
+}
+
+.Korean-progress {
+    text-align: center;
+    color: white;
+    width: 10%;
+    height: inherit;
+    border-radius: 25px 0 0 25px;
+    background: purple;
+    transition: width .2s linear;
+}
+
+.active {
+    margin: 10px;
+    padding: 50px;
+    background-color: #0096C7;
+}
+
+.act {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.actl {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #90E0EF;
+    text-align: center;
+    line-height: 30px;
+    clear: left;
+}
+
+.foot {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img.information {
+    float: left center;
+    padding: 0px 20px;
+}
